@@ -1,0 +1,33 @@
+{
+  "name": "@allinsonmota/converter",
+  "version": "0.1.0",
+  "description": "Units converter",
+  "main": "dist/src/Converter.js",
+  "scripts": {
+    "build": "babel src/Converter.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allinsonmota/converter.git"
+  },
+  "keywords": [
+    "converter",
+    "pounds",
+    "kilograms",
+    "ounces",
+    "calculator"
+  ],
+  "author": "Allinson Mota <allinsonmota@gmail.com> (https://twitter.com/allinsonmota)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allinsonmota/converter/issues"
+  },
+  "homepage": "https://github.com/allinsonmota/converter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
